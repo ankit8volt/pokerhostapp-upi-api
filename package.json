@@ -5,6 +5,9 @@
   "engines": {
     "node": ">=18"
   },
+  "scripts": {
+    "test:deploy": "node scripts/test-deploy.mjs"
+  },
   "dependencies": {
     "qrcode": "^1.5.4"
   }
